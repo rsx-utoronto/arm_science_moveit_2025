@@ -1,0 +1,14 @@
+controller_list:
+  - name: fake_rsx_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
+  - name: fake_end_effector_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - drill_joint
+initial:  # Define initial robot poses per group
+  - group: rsx_arm
+    pose: module_1

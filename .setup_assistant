@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: arm_science_urdf_2025
+    relative_path: urdf/arm_science_urdf_2025.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/arm_science_urdf_2025.srdf
+  CONFIG:
+    author_name: Ryan Alizadeh
+    author_email: ryan.alizadeh@mail.utoronto.ca
+    generated_timestamp: 1737225348
